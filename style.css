@@ -1,0 +1,153 @@
+#header {
+    position:fixed;
+    height:150px;    
+    background-color:#49E61E;
+    z-index:99998;
+    left:0;
+    margin-top:-150px;
+}
+nav {
+    margin-top:150px;
+    height:100px;
+    font-size:24px;
+}
+.wrap {
+    position:relative;
+    margin:0 auto;
+    width:100%;
+}
+#footer {
+    clear:both;
+    position:fixed;
+    bottom:0;
+    z-index:999999;
+    background-color:#49E61E;
+    left:0;
+	}
+#content{
+            height:900px;
+            width:100%;
+            clear:both;
+            background-color:#739900;
+            left:0;
+        }
+#welcome{
+            margin: 0 auto 0 auto;
+            
+        }        
+#header , #footer {
+		width:100%;
+		float:left;
+	}
+.navdiv {
+
+}
+#footwrap {
+
+    padding-top:50px;
+    padding-bottom: 0px;
+    width:100%;
+    height:150px;    
+    background-color:#49E61E;
+}
+#foottext {
+    
+} 
+#headtext {
+    text-align:center;
+    float:right;
+}
+#navActive {
+    background-color:#d2ff4d;
+    font-size:30px;
+    color:midnightblue;
+    display:inline-block;
+    width:33%;
+}
+#navLink {
+    background-color:#49e61e;
+    font-size:30px;
+    color:lightgoldenrodyellow;
+    display:inline-block;
+    width:auto;
+}
+#headActive {
+    background-color:#d2ff4d;
+    font-size:75px;
+    color:midnightblue;
+    text-align: center;
+    display:inline-block;
+    margin-top:50px;
+}
+#headLink {
+    background-color:#49e61e;
+    font-size:75px;
+    color:lightgoldenrodyellow;
+    text-align: center;
+    margin-top:25px;
+    float:right;
+    display:inline-block;
+}
+ul.horizontal{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#739900;
+    
+}
+li {
+    display: list-item;
+   
+}
+ul.horizontal li{
+    float:left;
+    padding-left:15px;
+    padding-right:15px;
+}
+a.link {
+    
+}
+a.hover {
+    
+}
+a.visited {
+    
+}
+a.active {
+    
+}
+footer {align-content:center;
+        margin:0 auto;}
+div.wrap img{
+    margin:0 auto;
+    align-content:center;
+    float:left;
+    display:inline-block;
+    padding-bottom:25px;
+}
+.rightdiv {
+    width:60%;
+    float:right;
+    display:inline-block;
+
+}
+.leftdiv {
+    width:40%;
+    float:left;
+    display:inline-block;
+    
+}
+li a {
+    display:block;
+    
+}
+leftimg{float:left;}
+rightimg{float:right;}
+#indexpic {float:left;
+           width:200px;}
+
+body {background-color:#739900;}
+div.leftdiv p {font-size:24px;}
+table {padding-top:-30px;
+       }
