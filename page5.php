@@ -1,8 +1,20 @@
 <?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+ include ("top.php");
+ include ("head.php");
+ include ("navbar.php");
+?>
+<div id="content">
+    <!--Form Page
+        Requirements:
+            Email Text Box, Two Other text boxes
+            One List Box
+            Three Check Boxes
+            Three Radio Buttons
+            Submit Button
+            Field Sets/Legends as needed
+            Data validated as needed
+    
+    
+    -->
+</div>
+<?php include ("foot.php"); ?>

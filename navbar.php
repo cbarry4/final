@@ -19,7 +19,7 @@
             print '<li class="navActive">page2</li>';
          } 
         else {
-            print '<li class="navLink"><a href="page2r.php">page1</a></li>';
+            print '<li class="navLink"><a href="page2.php">page2</a></li>';
         }
         if ($path_parts['filename'] == "page3") {
             print '<li class="navActive">page3</li>';

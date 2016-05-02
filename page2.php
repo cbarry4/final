@@ -1,8 +1,29 @@
 <?php
+ include ("top.php");
+ include ("head.php");
+ include ("navbar.php");
+?>
+<div id="content">
+       <div class='contentpage'>
+            <table>
+                <tr>
+                    <td><img src='page2.img'></td>
+                    <td><p>Place holder text for the post. Place holder text for the post. Place holder text for the post. Place holder text for the post.</p><td>
+                </tr>
+                <tr>
+                    <td colspan='2'>
+                        <ul>
+                            <li>First bullet point</li>
+                            <li>Second bullet point</li>
+                            <li>Second bullet point</li>
+                            <li>Second bullet point</li>
+                            <li>Second bullet point</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
+</div>
+<?php include ("foot.php"); ?>
