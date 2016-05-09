@@ -1,14 +1,18 @@
+body {
+    font-family:Courier,monospace;
+}
 #header {
+    color:#ffffcc;
     position:fixed;
-    height:150px;    
-    background-color:#49E61E;
+    height:100px;    
+    background-color:#737373;
     z-index:99998;
     left:0;
     margin-top:-150px;
 }
 nav {
     margin-top:150px;
-    height:100px;
+    height:50px;
     font-size:24px;
 }
 .wrap {
@@ -17,23 +21,24 @@ nav {
     width:100%;
 }
 #footer {
+    color:#ffffcc;
     clear:both;
     position:fixed;
     bottom:0;
     z-index:999999;
-    background-color:#49E61E;
+    background-color:#737373;
     left:0;
 	}
 #content{
             height:900px;
             width:100%;
             clear:both;
-            background-color:#739900;
+            background-color:#ffffcc;
             left:0;
         }
 #welcome{
             margin: 0 auto 0 auto;
-            
+            font-family:Courier,monospace;
         }        
 #header , #footer {
 		width:100%;
@@ -48,7 +53,7 @@ nav {
     padding-bottom: 0px;
     width:100%;
     height:150px;    
-    background-color:#49E61E;
+    background-color:#ffffcc;
 }
 #foottext {
     
@@ -58,29 +63,29 @@ nav {
     float:right;
 }
 #navActive {
-    background-color:#d2ff4d;
+    background-color:#ffffcc;
     font-size:30px;
     color:midnightblue;
     display:inline-block;
     width:33%;
 }
 #navLink {
-    background-color:#49e61e;
+    background-color:#ffffcc;
     font-size:30px;
     color:lightgoldenrodyellow;
     display:inline-block;
     width:auto;
 }
 #headActive {
-    background-color:#d2ff4d;
+    background-color:#ffffcc;
     font-size:75px;
-    color:midnightblue;
+    color:lightgoldenrodyellow;
     text-align: center;
     display:inline-block;
     margin-top:50px;
 }
 #headLink {
-    background-color:#49e61e;
+    background-color:#ffffcc;
     font-size:75px;
     color:lightgoldenrodyellow;
     text-align: center;
@@ -93,7 +98,7 @@ ul.horizontal{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#739900;
+    background-color:#ffffcc;
     
 }
 li {
@@ -147,7 +152,7 @@ rightimg{float:right;}
 #indexpic {float:left;
            width:200px;}
 
-body {background-color:#739900;}
+body {background-color:#ffffcc;}
 div.leftdiv p {font-size:24px;}
 table {padding-top:-30px;
        }
